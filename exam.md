@@ -15,7 +15,7 @@ permalink: /exam/
         <li><strong>Total Points:</strong> 50 points maximum</li>
         <li><strong>Time Limit:</strong> 90 minutes</li>
         <li><strong>Format:</strong> One question at a time, no going back</li>
-        <li><strong>Coverage:</strong> All 14 chapters</li>
+        <li><strong>Coverage:</strong> All 10 chapters</li>
         <li><strong>Question Types:</strong> Multiple Choice, Dropdown Matching, Calculations</li>
       </ul>
       <button id="start-exam-btn" class="btn btn-primary">Start Exam</button>

@@ -14,7 +14,7 @@ This comprehensive exam application is designed to help students and professiona
 - **50 Points Maximum**: Score up to 50 points per exam
 - **90-Minute Timer**: Realistic exam conditions with time management practice
 - **No Going Back**: Sequential question format that mirrors real exam conditions
-- **14 Chapters Coverage**: Equal representation from all major finance and accounting topics
+- **10 Chapters Coverage**: Equal representation from all major finance and accounting topics
 
 ### Question Types
 
@@ -22,22 +22,18 @@ This comprehensive exam application is designed to help students and professiona
 2. **Dropdown Matching**: Match terms with their correct definitions
 3. **Calculation**: Solve numerical problems and financial calculations
 
-### Chapters Covered
+### Chapters Covered (Arvestus)
 
-1. Introduction to Financial Accounting
-2. The Accounting Equation
-3. Recording Business Transactions
-4. Adjusting Accounts
-5. Completing the Accounting Cycle
-6. Accounting for Merchandising Operations
-7. Inventory and Cost of Goods Sold
-8. Internal Control and Cash
-9. Accounting for Receivables
-10. Plant Assets and Depreciation
-11. Current Liabilities and Payroll
-12. Long-Term Liabilities
-13. Corporations and Stockholders' Equity
-14. Cash Flow Statement
+1. Arvestus 1 - Raamatupidamise võrrand
+2. Arvestus 2 - Majandustehingud ja finantsseisund
+3. Arvestus 3 - Konteerimine
+4. Arvestus 4 - Tegevusaruanded ja korrigeerimiskanded
+5. Arvestus 5 - Materiaalse põhivara arvestus
+6. Arvestus 7 - Nõuete arvestus
+7. Arvestus 8 - Laenuvõlgade arvestus
+8. Arvestus 10 - Lühiajalised kohustised
+9. Arvestus 11 - Pikaajalised kohustised ja võlakirjad
+10. Arvestus 12 - Omakapitali arvestus
 
 ### Performance Tracking
 

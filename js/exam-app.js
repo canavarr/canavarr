@@ -7,7 +7,7 @@
     questionsPerExam: 20,
     maxPoints: 50,
     timeLimit: 90 * 60, // 90 minutes in seconds
-    chaptersRequired: 14
+    chaptersRequired: 10  // Updated to match actual number of chapters with questions
   };
 
   // Application State
@@ -74,19 +74,22 @@
   }
 
   function generateExamQuestions() {
-    // Ensure equal representation from all 14 chapters
-    const questionsPerChapter = Math.floor(EXAM_CONFIG.questionsPerExam / EXAM_CONFIG.chaptersRequired);
-    const remainingQuestions = EXAM_CONFIG.questionsPerExam % EXAM_CONFIG.chaptersRequired;
+    // Get unique chapters that have questions
+    const availableChapters = [...new Set(QUESTION_BANK.map(q => q.chapter))].sort((a, b) => a - b);
+
+    // Ensure equal representation from all available chapters
+    const questionsPerChapter = Math.floor(EXAM_CONFIG.questionsPerExam / availableChapters.length);
+    const remainingQuestions = EXAM_CONFIG.questionsPerExam % availableChapters.length;
 
     let selectedQuestions = [];
 
-    // Get questions from each chapter
-    for (let chapter = 1; chapter <= EXAM_CONFIG.chaptersRequired; chapter++) {
+    // Get questions from each available chapter
+    availableChapters.forEach((chapter, index) => {
       const chapterQuestions = QUESTION_BANK.filter(q => q.chapter === chapter);
-      const numToSelect = questionsPerChapter + (chapter <= remainingQuestions ? 1 : 0);
+      const numToSelect = questionsPerChapter + (index < remainingQuestions ? 1 : 0);
       const shuffled = shuffleArray([...chapterQuestions]);
       selectedQuestions.push(...shuffled.slice(0, numToSelect));
-    }
+    });
 
     // Shuffle all questions
     return shuffleArray(selectedQuestions);
