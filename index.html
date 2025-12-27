@@ -4,20 +4,43 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Welcome to Finance Accounting Exam</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <p style="font-size: 1.2em; line-height: 1.6; margin-bottom: 30px;">
+      Master finance and accounting concepts through our comprehensive exam system.
+      Practice with realistic exam conditions, track your progress, and improve your understanding
+      of essential accounting principles across all 14 major chapters.
+    </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div style="background: #f8f9fa; padding: 30px; border-radius: 10px; margin-bottom: 30px;">
+      <h2 style="color: #2c3e50; margin-top: 0;">Quick Start</h2>
+      <ol style="line-height: 2;">
+        <li><strong>Take the Exam:</strong> Click the "Start Exam" button to begin a new 20-question exam</li>
+        <li><strong>Answer Questions:</strong> Complete all questions within the 90-minute time limit</li>
+        <li><strong>Review Results:</strong> See your score and identify areas for improvement</li>
+        <li><strong>Track Progress:</strong> Monitor your performance across all chapters</li>
+      </ol>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div style="text-align: center; margin: 40px 0;">
+      <a href="{{ "/exam/" | prepend: site.baseurl }}" style="display: inline-block; padding: 15px 40px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; font-size: 1.2em; font-weight: bold; transition: all 0.3s;">
+        Start Your Exam Now
+      </a>
+    </div>
+
+    <div style="background: #e8f5e9; padding: 20px; border-radius: 10px; border-left: 4px solid #27ae60;">
+      <h3 style="color: #27ae60; margin-top: 0;">Key Features</h3>
+      <ul style="line-height: 1.8;">
+        <li>20 questions per exam covering all 14 chapters</li>
+        <li>Multiple question types: Multiple Choice, Dropdown Matching, and Calculations</li>
+        <li>90-minute timer for realistic exam practice</li>
+        <li>Detailed performance analytics by chapter</li>
+        <li>Review mode with explanations for incorrect answers</li>
+        <li>Unlimited practice attempts</li>
+        <li>Progress tracking across all your exams</li>
+      </ul>
+    </div>
+  </div>
 
 </div>
