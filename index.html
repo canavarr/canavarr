@@ -1,23 +1,95 @@
 ---
-layout: default
+layout: exam
 ---
 
-<div class="home">
+<div class="exam-app">
+  <header class="exam-header">
+    <div>
+      <h1>Finantsarvestuse eksam</h1>
+      <p class="exam-subtitle">20 küsimust • 50 punkti • 90 minutit</p>
+      <p class="data-warning" id="data-warning" hidden></p>
+    </div>
+    <div class="exam-actions">
+      <button class="primary" id="start-exam">Alusta eksamit</button>
+      <button class="secondary" id="start-practice">Alusta harjutamist</button>
+    </div>
+  </header>
 
-  <h1 class="page-heading">Posts</h1>
+  <section class="exam-status" id="exam-status" hidden>
+    <div>
+      <p class="status-label">Aeg</p>
+      <p class="status-value" id="timer">90:00</p>
+    </div>
+    <div>
+      <p class="status-label">Edenemine</p>
+      <p class="status-value" id="progress">1 / 20</p>
+    </div>
+    <div>
+      <p class="status-label">Režiim</p>
+      <p class="status-value" id="mode-label">Eksam</p>
+    </div>
+  </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <main id="question-area" class="question-area" hidden>
+    <div class="question-card">
+      <div class="question-meta">
+        <span id="chapter-label" class="pill">Peatükk 1</span>
+        <span id="points-label" class="pill">2.5 p</span>
+      </div>
+      <h2 id="question-title"></h2>
+      <p id="question-text" class="question-text"></p>
+      <p id="question-subtext" class="question-subtext"></p>
+      <div id="question-note" class="question-note"></div>
+      <div id="question-table" class="question-table"></div>
+      <div id="question-timeline" class="question-timeline"></div>
+      <div id="question-inputs" class="question-inputs"></div>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="question-navigation">
+      <button class="secondary" id="prev-question">Eelmine</button>
+      <button class="primary" id="next-question">Järgmine</button>
+      <button class="primary" id="finish-exam">Lõpeta</button>
+    </div>
+  </main>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <section class="results" id="results" hidden>
+    <div class="results-summary">
+      <h2>Tulemus</h2>
+      <div class="summary-grid">
+        <div>
+          <p class="status-label">Koguskoor</p>
+          <p class="status-value" id="final-score"></p>
+        </div>
+        <div>
+          <p class="status-label">Õiged vastused</p>
+          <p class="status-value" id="final-correct"></p>
+        </div>
+        <div>
+          <p class="status-label">Vale(d)</p>
+          <p class="status-value" id="final-incorrect"></p>
+        </div>
+      </div>
+      <button class="secondary" id="restart-exam">Uus katse</button>
+    </div>
 
+    <div class="results-panel">
+      <h3>Tulemus peatükkide lõikes</h3>
+      <div id="chapter-performance"></div>
+    </div>
+
+    <div class="results-panel" id="review-panel">
+      <h3>Ülevaade valedest vastustest</h3>
+      <div id="review-list"></div>
+    </div>
+  </section>
+
+  <section class="results" id="history" aria-live="polite">
+    <div class="results-panel">
+      <h3>Varasemad katsed</h3>
+      <div id="history-list" class="history-list"></div>
+    </div>
+  </section>
 </div>
+
+<script src="finantsarvestus-copy.js"></script>
+<script src="js/exam.js"></script>

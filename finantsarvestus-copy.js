@@ -1030,7 +1030,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1044,7 +1044,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1058,7 +1058,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1072,7 +1072,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1086,7 +1086,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1100,7 +1100,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1114,7 +1114,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1128,7 +1128,7 @@ const ALL_QUESTIONS = [
                 'Majandustükuse eeldus (economic entity assumption)',
                 'Olulisuse piirang (materiality constraint)',
                 'Perioodilisuse eeldus (periodicity assumption)',
-                'Rahaühiku eeldus (monetary unit assumption)'
+                'Rahaühiku eeldus (monetary unit assumption)',
                 'Soetusmaksumuse printsiip (historical cost principle)',
                 'Tulude ja kulude vastavuse printsiip (matching principle)',
             ]
@@ -1879,7 +1879,7 @@ const ALL_QUESTIONS = [
     ],
     subQuestion: 'Arvuta kaubavaru jääk 31.01.2024 brutokasumi meetodiga',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
-    correctAnswer: '47000'
+    correctAnswer: '47000',
     tolerance: 0
 },
 
@@ -1977,7 +1977,7 @@ const ALL_QUESTIONS = [
     },
     subQuestion: 'AArvuta neto nõuded ostjate vastu pärast ostja Y 1000 € maksmata arve mahakandmist.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
-    correctAnswer: '193000'
+    correctAnswer: '193000',
     tolerance: 0
 },
 
@@ -2087,6 +2087,7 @@ const ALL_QUESTIONS = [
                 'VARA väheneb ja OMAKAPITAL väheneb'
             ]
         },
+    ]
 },
 
 {
