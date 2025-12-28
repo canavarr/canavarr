@@ -1,4 +1,6 @@
-const ALL_QUESTIONS = [
+### Arvestus 1
+**Arvestus 1 - Question 1**:
+```javascript
 {
     id: 'ch1_q1',
     chapter: '1',
@@ -9,7 +11,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑ = K + O↑'
-},
+}
+```
+**Arvestus 1 - Question 2**:
+```javascript
 {
     id: 'ch1_q2',
     chapter: '1',
@@ -20,7 +25,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑ = K↑ + O'
-},
+}
+```
+**Arvestus 1 - Question 3**:
+```javascript
 {
     id: 'ch1_q3',
     chapter: '1',
@@ -31,7 +39,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑↓ = K + O'
-},
+}
+```
+**Arvestus 1 - Question 4**:
+```javascript
 {
     id: 'ch1_q4',
     chapter: '1',
@@ -42,7 +53,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑↓ = K + O'
-},
+}
+```
+**Arvestus 1 - Question 5**:
+```javascript
 {
     id: 'ch1_q5',
     chapter: '1',
@@ -53,7 +67,14 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑↓ = K + O'
-},
+}
+```
+
+
+
+### Arvestus 2
+**Arvestus 2 - Question 1**:
+```javascript
 {
     id: 'ch2_q1',
     chapter: '2',
@@ -64,7 +85,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑ = K↑ + O'
-},
+}
+```
+**Arvestus 2 - Question 2**:
+```javascript
 {
     id: 'ch2_q2',
     chapter: '2',
@@ -75,7 +99,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↓ = K↓ + O'
-},
+}
+```
+**Arvestus 2 - Question 3**:
+```javascript
 {
     id: 'ch2_q3',
     chapter: '2',
@@ -86,7 +113,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V = K↑ + O↓'
-},
+}
+```
+**Arvestus 2 - Question 4**:
+```javascript
 {
     id: 'ch2_q4',
     chapter: '2',
@@ -97,7 +127,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↓ = K↓ + O'
-},
+}
+```
+**Arvestus 2 - Question 5**:
+```javascript
 {
     id: 'ch2_q5',
     chapter: '2',
@@ -108,7 +141,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑ = K + O↑'
-},
+}
+```
+**Arvestus 2 - Question 6**:
+```javascript
 {
     id: 'ch2_q6',
     chapter: '2',
@@ -119,7 +155,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑↓ = K + O'
-},
+}
+```
+**Arvestus 2 - Question 7**:
+```javascript
 {
     id: 'ch2_q7',
     chapter: '2',
@@ -130,7 +169,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑↓ = K + O'
-},
+}
+```
+**Arvestus 2 - Question 8**:
+```javascript
 {
     id: 'ch2_q8',
     chapter: '2',
@@ -141,7 +183,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↓ = K + O↓'
-},
+}
+```
+**Arvestus 2 - Question 9**:
+```javascript
 {
     id: 'ch2_q9',
     chapter: '2',
@@ -152,7 +197,10 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V↑ = K↑ + O'
-},
+}
+```
+**Arvestus 2 - Question 10**:
+```javascript
 {
     id: 'ch2_q10',
     chapter: '2',
@@ -163,7 +211,14 @@ const ALL_QUESTIONS = [
     note: 'NB! ↑ - suureneb;  ↓ - väheneb',
     options: ['V = K↑ + O↓', 'V = K↓ + O↑', 'V↑ = K + O↑', 'V↑ = K↑ + O', 'V↑↓ = K + O', 'V↓ = K + O↓', 'V↓ = K↓ + O'],
     correctAnswer: 'V = K↓ + O↑'
-},
+}
+```
+
+
+
+### Arvestus 3
+**Arvestus 3 - Question 1**:
+```javascript
 {
     id: 'ch3_q1',
     chapter: '3',
@@ -192,7 +247,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 2**:
+```javascript
 {
     id: 'ch3_q2',
     chapter: '3',
@@ -221,7 +279,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 3**:
+```javascript
 {
     id: 'ch3_q3',
     chapter: '3',
@@ -250,7 +311,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 4**:
+```javascript
 {
     id: 'ch3_q4',
     chapter: '3',
@@ -279,7 +343,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 5**:
+```javascript
 {
     id: 'ch3_q5',
     chapter: '3',
@@ -308,7 +375,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 6**:
+```javascript
 {
     id: 'ch3_q6',
     chapter: '3',
@@ -337,7 +407,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 7**:
+```javascript
 {
     id: 'ch3_q7',
     chapter: '3',
@@ -366,7 +439,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 8**:
+```javascript
 {
     id: 'ch3_q8',
     chapter: '3',
@@ -395,7 +471,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 9**:
+```javascript
 {
     id: 'ch3_q9',
     chapter: '3',
@@ -424,7 +503,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 3 - Question 10**:
+```javascript
 {
     id: 'ch3_q10',
     chapter: '3',
@@ -453,7 +535,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+
+
+
+### Arvestus 4
+**Arvestus 4 - Question 1**:
+```javascript
 {
     id: 'ch4_q1',
     chapter: '4',
@@ -482,7 +571,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 2**:
+```javascript
 {
     id: 'ch4_q2',
     chapter: '4',
@@ -511,7 +603,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 3**:
+```javascript
 {
     id: 'ch4_q3',
     chapter: '4',
@@ -540,7 +635,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 4**:
+```javascript
 {
     id: 'ch4_q4',
     chapter: '4',
@@ -569,7 +667,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 5**:
+```javascript
 {
     id: 'ch4_q5',
     chapter: '4',
@@ -598,7 +699,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 6**:
+```javascript
 {
     id: 'ch4_q6',
     chapter: '4',
@@ -627,7 +731,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 7**:
+```javascript
 {
     id: 'ch4_q7',
     chapter: '4',
@@ -656,7 +763,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 8**:
+```javascript
 {
     id: 'ch4_q8',
     chapter: '4',
@@ -685,7 +795,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 9**:
+```javascript
 {
     id: 'ch4_q9',
     chapter: '4',
@@ -714,7 +827,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
+**Arvestus 4 - Question 10**:
+```javascript
 {
     id: 'ch4_q10',
     chapter: '4',
@@ -743,8 +859,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
 
+
+
+### Arvestus 5
+**Arvestus 5 - Question 1**:
+```javascript
 {
     id: 'ch5_q1',
     chapter: '5',
@@ -773,8 +895,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 5 - Question 2**:
+```javascript
 {
     id: 'ch5_q2',
     chapter: '5',
@@ -803,8 +927,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 5 - Question 3**:
+```javascript
 {
     id: 'ch5_q3',
     chapter: '5',
@@ -833,8 +959,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 5 - Question 4**:
+```javascript
 {
     id: 'ch5_q4',
     chapter: '5',
@@ -863,8 +991,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 5 - Question 5**:
+```javascript
 {
     id: 'ch5_q5',
     chapter: '5',
@@ -893,8 +1023,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
 
+
+
+### Kontrolltöö 1
+**Kontrolltöö 1 - Question 1**:
+```javascript
 {
     id: 'kt1_q1',
     chapter: '6',
@@ -904,10 +1040,11 @@ const ALL_QUESTIONS = [
     variables: {
         varad: { min: 200, max: 500 },
         kohustised: { min: 80, max: 250 }
-    },
     correctAnswer: 142
-},
-
+}
+```
+**Kontrolltöö 1 - Question 2**:
+```javascript
 {
     id: 'kt1_q2',
     chapter: '6',
@@ -924,8 +1061,10 @@ const ALL_QUESTIONS = [
     },
     options: [4000, 12000, 3000, 5000, 8000],
     correctAnswer: 4000
-},
-
+}
+```
+**Kontrolltöö 1 - Question 3**:
+```javascript
 {
     id: 'kt1_q3',
     chapter: '6',
@@ -1000,8 +1139,10 @@ const ALL_QUESTIONS = [
             options: ['VARA', 'KOHUSTIS', 'OMAKAPITAL']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 4**:
+```javascript
 {
     id: 'kt1_q4',
     chapter: '6',
@@ -1011,8 +1152,10 @@ const ALL_QUESTIONS = [
     subQuestion: 'A) Teenustulu\nB) Raha\nC) Kaubavaru\nD) Ettemaksed tarnijatele\nE) Ettemaksed ostjatelt',
     options: ['C, D, E', 'B, C, E', 'B, C, D', 'A, B, C'],
     correctAnswer: 'B, C, D'
-},
-
+}
+```
+**Kontrolltöö 1 - Question 5**:
+```javascript
 {
     id: 'kt1_q5',
     chapter: '6',
@@ -1134,8 +1277,10 @@ const ALL_QUESTIONS = [
             ]
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 6**:
+```javascript
 {
     id: 'kt1_q6',
     chapter: '6',
@@ -1152,8 +1297,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1165,8 +1310,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1178,8 +1323,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1191,8 +1336,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1204,8 +1349,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1217,8 +1362,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1230,8 +1375,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1243,8 +1388,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1256,8 +1401,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1269,8 +1414,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1282,8 +1427,8 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -1295,13 +1440,15 @@ const ALL_QUESTIONS = [
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 7**:
+```javascript
 {
     id: 'kt1_q7',
     chapter: '6',
@@ -1330,8 +1477,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 8**:
+```javascript
 {
     id: 'kt1_q8',
     chapter: '6',
@@ -1360,8 +1509,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 9**:
+```javascript
 {
     id: 'kt1_q9',
     chapter: '6',
@@ -1390,8 +1541,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 10**:
+```javascript
 {
     id: 'kt1_q10',
     chapter: '6',
@@ -1420,8 +1573,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 1 - Question 11**:
+```javascript
 {
     id: 'kt1_q11',
     chapter: '6',
@@ -1450,8 +1605,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
 
+
+
+### Arvestus 6
+**Arvestus 6 - Question 1**:
+```javascript
 {
     id: 'ch6_q1',
     chapter: '7',
@@ -1481,8 +1642,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 6 - Question 2**:
+```javascript
 {
     id: 'ch6_q2',
     chapter: '7',
@@ -1512,8 +1675,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 6 - Question 3**:
+```javascript
 {
     id: 'ch6_q3',
     chapter: '7',
@@ -1543,8 +1708,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 6 - Question 4**:
+```javascript
 {
     id: 'ch6_q4',
     chapter: '7',
@@ -1574,8 +1741,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 6 - Question 5**:
+```javascript
 {
     id: 'ch6_q5',
     chapter: '7',
@@ -1605,8 +1774,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
 
+
+
+### Arvestus 7
+**Arvestus 7 - Question 1**:
+```javascript
 {
     id: 'ch7_q1',
     chapter: '8',
@@ -1637,8 +1812,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina',
     correctAnswer: '11051.26',
     tolerance: 0.5
-},
-
+}
+```
+**Arvestus 7 - Question 2**:
+```javascript
 {
     id: 'ch7_q2',
     chapter: '8',
@@ -1669,8 +1846,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina',
     correctAnswer: '11603.55',
     tolerance: 0.5
-},
-
+}
+```
+**Arvestus 7 - Question 3**:
+```javascript
 {
     id: 'ch7_q3',
     chapter: '8',
@@ -1701,8 +1880,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina',
     correctAnswer: '12183.73',
     tolerance: 0.5
-},
-
+}
+```
+**Arvestus 7 - Question 4**:
+```javascript
 {
     id: 'ch7_q4',
     chapter: '8',
@@ -1734,8 +1915,14 @@ const ALL_QUESTIONS = [
     correctAnswer: '2814.13',
     tolerance: 0.5,
     acceptNegative: true 
-},
+}
+```
 
+
+
+### Kontrolltöö 2
+**Kontrolltöö 2 - Question 1**:
+```javascript
 {
     id: 'kt2_q1',
     chapter: '9',
@@ -1770,8 +1957,10 @@ const ALL_QUESTIONS = [
             options: ['deebet veerus', 'kreedit veerus']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 2 - Question 2**:
+```javascript
 {
     id: 'kt2_q2',
     chapter: '9',
@@ -1788,8 +1977,10 @@ const ALL_QUESTIONS = [
     },
     options: [4000, 8000, 11000, 3000, 5000],
     correctAnswer: 3000
-},
-
+}
+```
+**Kontrolltöö 2 - Question 3**:
+```javascript
 {
     id: 'kt2_q3',
     chapter: '9',
@@ -1809,8 +2000,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '25600',
     tolerance: 0 
-},
-
+}
+```
+**Kontrolltöö 2 - Question 4**:
+```javascript
 {
     id: 'kt2_q4',
     chapter: '9',
@@ -1845,8 +2038,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 2 - Question 5**:
+```javascript
 {
     id: 'kt2_q5',
     chapter: '9',
@@ -1881,8 +2076,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '47000'
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 2 - Question 6**:
+```javascript
 {
     id: 'kt2_q6',
     chapter: '9',
@@ -1900,8 +2097,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '500',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 2 - Question 7**:
+```javascript
 {
     id: 'kt2_q7',
     chapter: '9',
@@ -1919,8 +2118,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '-44',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 2 - Question 8**:
+```javascript
 {
     id: 'kt2_q8',
     chapter: '9',
@@ -1955,8 +2156,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 2 - Question 9**:
+```javascript
 {
     id: 'kt2_q9',
     chapter: '9',
@@ -1979,8 +2182,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '193000'
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 2 - Question 10**:
+```javascript
 {
     id: 'kt2_q10',
     chapter: '9',
@@ -1992,8 +2197,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '200',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 2 - Question 11**:
+```javascript
 {
     id: 'kt2_q11',
     chapter: '9',
@@ -2005,8 +2212,14 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '100',
     tolerance: 0
-},
+}
+```
 
+
+
+### Arvestus 8
+**Arvestus 8 - Question 1**:
+```javascript
 {
     id: 'ch8_q1',
     chapter: '10',
@@ -2029,8 +2242,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '22050',
     tolerance: 0 
-},
-
+}
+```
+**Arvestus 8 - Question 2**:
+```javascript
 {
     id: 'ch8_q2',
     chapter: '10',
@@ -2047,8 +2262,8 @@ const ALL_QUESTIONS = [
                 'KOHUSTIS suureneb ja OMAKAPITAL väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -2059,8 +2274,8 @@ const ALL_QUESTIONS = [
                 'KOHUSTIS suureneb ja OMAKAPITAL väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -2071,8 +2286,8 @@ const ALL_QUESTIONS = [
                 'KOHUSTIS suureneb ja OMAKAPITAL väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -2083,12 +2298,14 @@ const ALL_QUESTIONS = [
                 'KOHUSTIS suureneb ja OMAKAPITAL väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
-},
-
+}
+```
+**Arvestus 8 - Question 3**:
+```javascript
 {
     id: 'ch8_q3',
     chapter: '10',
@@ -2100,8 +2317,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '100',
     tolerance: 0
-},
-
+}
+```
+**Arvestus 8 - Question 4**:
+```javascript
 {
     id: 'ch8_q4',
     chapter: '10',
@@ -2113,8 +2332,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '300',
     tolerance: 0
-},
-
+}
+```
+**Arvestus 8 - Question 5**:
+```javascript
 {
     id: 'ch8_q5',
     chapter: '10',
@@ -2138,8 +2359,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 8 - Question 6**:
+```javascript
 {
     id: 'ch8_q6',
     chapter: '10',
@@ -2148,8 +2371,14 @@ const ALL_QUESTIONS = [
     question: 'Milline alljärgnev lühiajaline kohustis finantsseisundi aruandes on hinnanguline?',
     options: ['garantii', 'sotsiaalmaks', 'intress', 'käibemaks'],  // Strings with quotes
     correctAnswer: 'garantii'  // String with quotes
-},
+}
+```
 
+
+
+### Arvestus 9
+**Arvestus 9 - Question 1**:
+```javascript
 {
     id: 'ch9_q1',
     chapter: '11',
@@ -2167,8 +2396,10 @@ const ALL_QUESTIONS = [
     subQuestion: 'Arvuta Nasdaq Tallinna börsil 02. jaanuaril 2024 (kauplemispäev) antud võlakirja ostuhind täpsusega 1 €.',
     correctAnswer: '1005.66',
     tolerance: 0.5
-},
-
+}
+```
+**Arvestus 9 - Question 2**:
+```javascript
 {
     id: 'ch9_q2',
     chapter: '11',
@@ -2186,8 +2417,10 @@ const ALL_QUESTIONS = [
     subQuestion: 'Arvuta Nasdaq Tallinna börsil 18. märtsil 2024 (kauplemispäev) antud võlakirja müügihind täpsusega 1 €.',
     correctAnswer: '1017.83',
     tolerance: 0.5
-},
-
+}
+```
+**Arvestus 9 - Question 3**:
+```javascript
 {
     id: 'ch9_q3',
     chapter: '11',
@@ -2209,8 +2442,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '10000000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Arvestus 9 - Question 4**:
+```javascript
 {
     id: 'ch9_q4',
     chapter: '11',
@@ -2232,8 +2467,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '200000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Arvestus 9 - Question 5**:
+```javascript
 {
     id: 'ch9_q5',
     chapter: '11',
@@ -2263,8 +2500,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 9 - Question 6**:
+```javascript
 {
     id: 'ch9_q6',
     chapter: '11',
@@ -2284,8 +2523,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '96000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Arvestus 9 - Question 7**:
+```javascript
 {
     id: 'ch9_q7',
     chapter: '11',
@@ -2305,8 +2546,14 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '104000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
+}
+```
 
+
+
+### Arvestus 10
+**Arvestus 10 - Question 1**:
+```javascript
 {
     id: 'ch10_q1',
     chapter: '12',
@@ -2357,8 +2604,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '150',
     tolerance: 0
-},
-
+}
+```
+**Arvestus 10 - Question 2**:
+```javascript
 {
     id: 'ch10_q2',
     chapter: '12',
@@ -2428,8 +2677,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 10 - Question 3**:
+```javascript
 {
     id: 'ch10_q3',
     chapter: '12',
@@ -2480,8 +2731,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '3',
     tolerance: 0
-},
-
+}
+```
+**Arvestus 10 - Question 4**:
+```javascript
 {
     id: 'ch10_q4',
     chapter: '12',
@@ -2532,8 +2785,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '52000',
     tolerance: 0
-},
-
+}
+```
+**Arvestus 10 - Question 5**:
+```javascript
 {
     id: 'ch10_q5',
     chapter: '12',
@@ -2584,7 +2839,10 @@ const ALL_QUESTIONS = [
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '20',
     tolerance: 0
-},
+}
+```
+**Arvestus 10 - Question 6**:
+```javascript
 {
     id: 'ch10_q6',
     chapter: '12',
@@ -2654,8 +2912,10 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Arvestus 10 - Question 7**:
+```javascript
 {
     id: 'ch10_q7',
     chapter: '12',
@@ -2725,8 +2985,14 @@ const ALL_QUESTIONS = [
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
+}
+```
 
+
+
+### Kontrolltöö 3
+**Kontrolltöö 3 - Question 1**:
+```javascript
 {
     id: 'kt3_q1',
     chapter: '13',
@@ -2738,8 +3004,10 @@ type: 'input',
     correctAnswer: '6048',
     acceptNegative: true,  // Accept both 6048 and -6048
     tolerance: 1  // ±1 euro
-},
-
+}
+```
+**Kontrolltöö 3 - Question 2**:
+```javascript
 {
     id: 'kt3_q2',
     chapter: '13',
@@ -2750,8 +3018,10 @@ type: 'input',
     subQuestion: 'Arvuta kasu / kahju materiaalse põhivara müügist.',
     correctAnswer: '-172',
     tolerance: 0  
-},
-
+}
+```
+**Kontrolltöö 3 - Question 3**:
+```javascript
 {
     id: 'kt3_q3',
     chapter: '13',
@@ -2797,8 +3067,10 @@ type: 'input',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 3 - Question 4**:
+```javascript
 {
     id: 'kt3_q4',
     chapter: '13',
@@ -2817,8 +3089,8 @@ type: 'input',
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -2830,8 +3102,8 @@ type: 'input',
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
         {
@@ -2843,13 +3115,15 @@ type: 'input',
                 'Üks VARAliik suureneb ja teine VARAliik väheneb',
                 'VARA suureneb ja KOHUSTIS suureneb',
                 'VARA suureneb ja OMAKAPITAL suureneb',
-                'VARA väheneb ja KOHUSTIS väheneb',
-                'VARA väheneb ja OMAKAPITAL väheneb'
+                'VARA väheneb ja KOHUSTIS väheneb'
+                'VARA väheneb ja OMAKAPITAL väheneb',
             ]
         },
     ]
-},
-
+}
+```
+**Kontrolltöö 3 - Question 5**:
+```javascript
 {
     id: 'kt3_q5',
     chapter: '13',
@@ -2880,8 +3154,10 @@ type: 'input',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         },
     ]
-},
-
+}
+```
+**Kontrolltöö 3 - Question 6**:
+```javascript
 {
     id: 'kt3_q6',
     chapter: '13',
@@ -2892,8 +3168,10 @@ type: 'input',
     subQuestion: 'Arvuta ettevõtte ABC intressivõlg 31.12.2024 finantsseisundi aruandes.',
     correctAnswer: '300',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 3 - Question 7**:
+```javascript
 {
     id: 'kt3_q7',
     chapter: '13',
@@ -2904,8 +3182,10 @@ type: 'input',
     subQuestion: 'Arvuta ettevõtte ABC intressikulu 2025 a. kasumiaruandes.',
     correctAnswer: '100',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 3 - Question 8**:
+```javascript
 {
     id: 'kt3_q8',
     chapter: '13',
@@ -2927,8 +3207,10 @@ type: 'input',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '4000000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Kontrolltöö 3 - Question 9**:
+```javascript
 {
     id: 'kt3_q9',
     chapter: '13',
@@ -2950,8 +3232,10 @@ type: 'input',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '80000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Kontrolltöö 3 - Question 10**:
+```javascript
 {
     id: 'kt3_q10',
     chapter: '13',
@@ -2973,8 +3257,10 @@ type: 'input',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '6000',
     tolerance: 0  // Exact answer (with margin: 0)
-},
-
+}
+```
+**Kontrolltöö 3 - Question 11**:
+```javascript
 {
     id: 'kt3_q11',
     chapter: '13',
@@ -3020,8 +3306,10 @@ type: 'input',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
         }
     ]
-},
-
+}
+```
+**Kontrolltöö 3 - Question 12**:
+```javascript
 {
     id: 'kt3_q12',
     chapter: '13',
@@ -3060,10 +3348,12 @@ type: 'input',
             item: 'Võlakirjavõla diskonto (kohustise konto)',
             correctAnswer: 'deebet',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
-},
-
+}
+```
+**Kontrolltöö 3 - Question 13**:
+```javascript
 {
     id: 'kt3_q13',
     chapter: '13',
@@ -3081,8 +3371,14 @@ type: 'input',
     subQuestion: 'Arvuta 04. aprillil 2024 (kauplemispäev) antud võlakirja ostuhind täpsusega 1 €.',
     correctAnswer: '996.43',
     tolerance: 0.5
-},
+}
+```
 
+
+
+### Kontrolltöö 4
+**Kontrolltöö 4 - Question 1**:
+```javascript
 {
     id: 'kt4_q1',
     chapter: '14',
@@ -3098,17 +3394,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Aktsiaselts ZZZ on emiteerinud eelisaktsiaid 600 000 tk. Arvuta eelisaktsia emissioonihind.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '10',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 2**:
+```javascript
 {
     id: 'kt4_q2',
     chapter: '14',
@@ -3124,17 +3422,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Aktsiaselts ZZZ on emiteerinud lihtaktsiaid 6 000 000 tk. Arvuta lihtaktsia emissioonihind.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '2',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 3**:
+```javascript
 {
     id: 'kt4_q3',
     chapter: '14',
@@ -3150,9 +3450,9 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Aktsiaselts ZZZ on emiteerinud lihtaktsiaid 6 000 000 tk. Kuidas on konteeritud raha laekumine  lihtaktsiate emissioonist?',
@@ -3181,10 +3481,12 @@ type: 'input',
             item: 'Raha (vara konto)',
             correctAnswer: 'deebet',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
-},
-
+}
+```
+**Kontrolltöö 4 - Question 4**:
+```javascript
 {
     id: 'kt4_q4',
     chapter: '14',
@@ -3200,17 +3502,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Aktsiaselts ZZZ on emiteerinud lihtaktsiaid 6 000 000 tk. Mitu lihtaktsiat on aktsionäride käes?',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '5900000',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 5**:
+```javascript
 {
     id: 'kt4_q5',
     chapter: '14',
@@ -3226,9 +3530,9 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Aktsiaselts ZZZ ostis 2023. aastal börsilt oma lihtaktsiaid 100 000 tk. Kuidas on konteeritud oma lihtaktsiate ost?',
@@ -3257,10 +3561,12 @@ type: 'input',
             item: 'Raha (vara konto)',
             correctAnswer: 'kreedit',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
-},
-
+}
+```
+**Kontrolltöö 4 - Question 6**:
+```javascript
 {
     id: 'kt4_q6',
     chapter: '14',
@@ -3276,17 +3582,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Eeldame, et AS ZZZ eelisaktsiad on kumulatiivsed ja AS ZZZ on eelnevatel aastatel regulaarselt dividende maksnud ettevõte.\n\nOletame, et 01.03.2024 deklareeris aktsiaselts ZZZ juhatus rahadividendi 2€ lihtaktsia kohta.  Arvuta eelis- ja lihtaktsionäridele deklareeritud rahadividendisumma.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '12400000',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 7**:
+```javascript
 {
     id: 'kt4_q7',
     chapter: '14',
@@ -3302,17 +3610,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Eeldame, et AS ZZZ eelisaktsiad on kumulatiivsed ja AS ZZZ pole 2023. aastal dividende maksnud.\n\nOletame, et 01.03.2024 aktsiaselts ZZZ juhatus deklareeris rahadividendi 3€ lihtaktsia kohta. Arvuta eelis- ja lihtaktsionäridele deklareeritud rahadividendisumma.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '18900000',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 8**:
+```javascript
 {
     id: 'kt4_q8',
     chapter: '14',
@@ -3328,9 +3638,9 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Oletame, et 01.03.2024 aktsiaselts ZZZ juhatus deklareeris rahadividendi 13 000 000 €.\n\nKuidas konteeris AS ZZZ deklareeritud dividendisumma?',
@@ -3359,10 +3669,12 @@ type: 'input',
             item: 'Lihtaktsiad (omakapitali konto)',
             correctAnswer: 'seda kontot ei kasutata',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
-},
-
+}
+```
+**Kontrolltöö 4 - Question 9**:
+```javascript
 {
     id: 'kt4_q9',
     chapter: '14',
@@ -3378,17 +3690,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Oletame, et 01.03.2024 aktsiaselts ZZZ juhatus otsustas deklareerida eelisaktsinäridele rahadividendi ja lihtaktsionäridele 100% aktsiadividendi.\n\nMitu lihtaktsiat emiteeris AS ZZZ oma aktsionäridele aktsiadividendiks?',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '5900000',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 10**:
+```javascript
 {
     id: 'kt4_q10',
     chapter: '14',
@@ -3404,17 +3718,19 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Oletame, et aktsiaselts ZZZ müüs 01.04.2024 eelneval aastal börsilt ostetud oma lihtaktsiad 50 000 tk. müügihinnaga 2 € tükk.\n\nArvuta kasu / kahju 50 000 tk. oma lihtaktsia müügist.',
     note: 'Sisesta vastus numbrina (ilma komadeta)',
     correctAnswer: '50000',
     tolerance: 0
-},
-
+}
+```
+**Kontrolltöö 4 - Question 11**:
+```javascript
 {
     id: 'kt4_q11',
     chapter: '14',
@@ -3430,9 +3746,9 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Oletame, et aktsiaselts ZZZ müüs 01.04.2024 eelneval aastal börsilt ostetud oma lihtaktsiad 50 000 tk. müügihinnaga 2€ tükk.\n\nKuidas konteeris AS ZZZ 01.04.2024 oma lihtaktsiate müügi?',
@@ -3456,10 +3772,12 @@ type: 'input',
             item: 'Raha (vara konto)',
             correctAnswer: 'deebet',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
-},
-
+}
+```
+**Kontrolltöö 4 - Question 12**:
+```javascript
 {
     id: 'kt4_q12',
     chapter: '14',
@@ -3475,9 +3793,9 @@ type: 'input',
             ['Ülekurss – lihtaktsiad', '6 000 000'],
             ['Ülekurss – oma lihtaktsiad', '100 000'],
             ['Oma lihtaktsiad (100 000 tk.)', '- 100 000'],
-            ['Aktsiakapital kokku', '18 000 000'],  // Mark as bold in renderer based on label
+            ['Aktsiakapital kokku', '18 000 000',  // Mark as bold in renderer based on label
             ['Jaotamata kasum', '32 000 000'],
-            ['Omakapital kokku', '50 000 000']  // Mark as bold in renderer based on label
+            ['Omakapital kokku', '50 000 000',  // Mark as bold in renderer based on label
         ]
     },
     subQuestion: 'Oletame, et aktsiaselts ZZZ müüs 20.04.2024 eelneval aastal börsilt ostetud oma lihtaktsiad 50 000 tk. müügihinnaga 0,5€ tükk.\n\nKuidas konteeris AS ZZZ 20.04.2024 oma lihtaktsiate müügi?',
@@ -3501,7 +3819,7 @@ type: 'input',
             item: 'Raha (vara konto)',
             correctAnswer: 'deebet',
             options: ['deebet', 'kreedit', 'seda kontot ei kasutata']
-        }
+        },
     ]
 }
-];
+```

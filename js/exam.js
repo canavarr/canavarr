@@ -558,7 +558,6 @@ const initDom = () => {
   dom.reviewList = byId('review-list');
   dom.restartExam = byId('restart-exam');
   dom.historyList = byId('history-list');
-  dom.dataWarning = byId('data-warning');
 };
 
 const initEvents = () => {
@@ -572,17 +571,6 @@ const initEvents = () => {
 
 const init = () => {
   initDom();
-  const hasQuestions =
-    typeof ALL_QUESTIONS !== 'undefined' && Array.isArray(ALL_QUESTIONS) && ALL_QUESTIONS.length > 0;
-  if (!hasQuestions) {
-    dom.dataWarning.textContent =
-      'Küsimuste andmefaili ei leitud. Kontrolli, et finantsarvestus-copy.js on õigesti üles laaditud.';
-    dom.dataWarning.hidden = false;
-    dom.startExam.disabled = true;
-    dom.startPractice.disabled = true;
-    return;
-  }
-
   initEvents();
   renderHistory();
 };
