@@ -90,6 +90,45 @@ const buildExamQuestions = () => {
   return [chapterOne, ...shuffle(middleQuestions), chapterFourteen].filter(Boolean);
 };
 
+const getQuestionTitle = (question) => {
+  return question.question || question.questionText || 'Küsimus';
+};
+
+const getQuestionText = (question) => {
+  if (question.questionText && question.questionText !== question.question) {
+    return question.questionText;
+  }
+  return question.question && question.question !== getQuestionTitle(question) ? question.question : '';
+};
+
+const formatText = (value) => {
+  if (!value) {
+    return '';
+  }
+  return String(value).replace(/\\n/g, '<br>');
+};
+
+const buildQuestionBody = (question) => {
+  const sections = [];
+  if (question.question) {
+    sections.push(`<h3>Küsimus</h3><p>${formatText(question.question)}</p>`);
+  }
+  if (question.questionText && question.questionText !== question.question) {
+    sections.push(`<h3>Kirjeldus</h3><p>${formatText(question.questionText)}</p>`);
+  }
+  if (question.subQuestion) {
+    sections.push(`<h3>Ülesanne</h3><p>${formatText(question.subQuestion)}</p>`);
+  }
+  if (question.note) {
+    sections.push(`<h3>NB</h3><p>${formatText(question.note)}</p>`);
+  }
+  if (sections.length > 0) {
+    return sections.join('');
+  }
+  const fallback = formatText(JSON.stringify(question, null, 2));
+  return `<div class=\"question-fallback\">Küsimuse tekst puudub. Andmed:<br><pre>${fallback}</pre></div>`;
+};
+
 const resetState = () => {
   state.questions = [];
   state.currentIndex = 0;
@@ -270,10 +309,12 @@ const renderQuestion = () => {
 
   dom.chapterLabel.textContent = `Peatükk ${question.chapter}`;
   dom.pointsLabel.textContent = `${question.points} p`;
-  dom.questionTitle.innerHTML = question.question || 'Küsimus';
-  dom.questionText.innerHTML = question.questionText || '';
-  dom.questionSubtext.innerHTML = question.subQuestion || '';
-  dom.questionNote.innerHTML = question.note || '';
+  dom.questionId.textContent = question.id ? `ID ${question.id}` : 'ID —';
+  dom.questionTitle.innerHTML = formatText(getQuestionTitle(question));
+  dom.questionBody.innerHTML = buildQuestionBody(question) || '<p>Küsimuse tekst puudub.</p>';
+  dom.questionText.innerHTML = formatText(getQuestionText(question));
+  dom.questionSubtext.innerHTML = formatText(question.subQuestion);
+  dom.questionNote.innerHTML = formatText(question.note);
 
   renderTable(dom.questionTable, question.tableData);
   renderTimeline(dom.questionTimeline, question.timeline);
@@ -306,6 +347,15 @@ const startSession = (mode) => {
   state.mode = mode;
   state.questions = buildExamQuestions();
   state.startTime = new Date();
+
+  if (state.questions.length === 0) {
+    dom.dataWarning.textContent =
+      'Küsimusi ei leitud. Kontrolli, et andmefail on korrektselt laaditud.';
+    dom.dataWarning.hidden = false;
+    dom.questionArea.hidden = true;
+    dom.examStatus.hidden = true;
+    return;
+  }
 
   dom.modeLabel.textContent = mode === 'exam' ? 'Eksam' : 'Harjutamine';
   dom.examStatus.hidden = false;
@@ -547,6 +597,8 @@ const initDom = () => {
   dom.questionTable = byId('question-table');
   dom.questionTimeline = byId('question-timeline');
   dom.questionInputs = byId('question-inputs');
+  dom.questionBody = byId('question-body');
+  dom.questionId = byId('question-id');
   dom.prevButton = byId('prev-question');
   dom.nextButton = byId('next-question');
   dom.finishButton = byId('finish-exam');
@@ -558,6 +610,8 @@ const initDom = () => {
   dom.reviewList = byId('review-list');
   dom.restartExam = byId('restart-exam');
   dom.historyList = byId('history-list');
+  dom.dataWarning = byId('data-warning');
+  dom.dataStatus = byId('data-status');
 };
 
 const initEvents = () => {
@@ -571,6 +625,20 @@ const initEvents = () => {
 
 const init = () => {
   initDom();
+  const hasQuestions =
+    typeof ALL_QUESTIONS !== 'undefined' && Array.isArray(ALL_QUESTIONS) && ALL_QUESTIONS.length > 0;
+  if (!hasQuestions) {
+    dom.dataWarning.textContent =
+      'Küsimuste andmefaili ei leitud. Kontrolli, et finantsarvestus-copy.js on õigesti üles laaditud.';
+    dom.dataWarning.hidden = false;
+    dom.startExam.disabled = true;
+    dom.startPractice.disabled = true;
+    return;
+  }
+
+  dom.dataStatus.textContent = `Laetud küsimusi: ${ALL_QUESTIONS.length}`;
+  dom.dataStatus.hidden = false;
+
   initEvents();
   renderHistory();
 };
